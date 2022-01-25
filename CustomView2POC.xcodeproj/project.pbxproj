@@ -14,6 +14,7 @@
 		1D16EE7C27A0217F0085A00C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D16EE7B27A0217F0085A00C /* Assets.xcassets */; };
 		1D16EE7F27A0217F0085A00C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D16EE7D27A0217F0085A00C /* LaunchScreen.storyboard */; };
 		1D16EE8727A021AD0085A00C /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D16EE8627A021AD0085A00C /* TestView.swift */; };
+		1D16EE8B27A023670085A00C /* TextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D16EE8A27A023670085A00C /* TextView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1D16EE7E27A0217F0085A00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D16EE8027A0217F0085A00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D16EE8627A021AD0085A00C /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		1D16EE8A27A023670085A00C /* TextView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +67,18 @@
 				1D16EE7B27A0217F0085A00C /* Assets.xcassets */,
 				1D16EE7D27A0217F0085A00C /* LaunchScreen.storyboard */,
 				1D16EE8027A0217F0085A00C /* Info.plist */,
-				1D16EE8627A021AD0085A00C /* TestView.swift */,
+				1D16EE8C27A024630085A00C /* TestView */,
 			);
 			path = CustomView2POC;
+			sourceTree = "<group>";
+		};
+		1D16EE8C27A024630085A00C /* TestView */ = {
+			isa = PBXGroup;
+			children = (
+				1D16EE8627A021AD0085A00C /* TestView.swift */,
+				1D16EE8A27A023670085A00C /* TextView.xib */,
+			);
+			path = TestView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D16EE7F27A0217F0085A00C /* LaunchScreen.storyboard in Resources */,
+				1D16EE8B27A023670085A00C /* TextView.xib in Resources */,
 				1D16EE7C27A0217F0085A00C /* Assets.xcassets in Resources */,
 				1D16EE7A27A0217D0085A00C /* Main.storyboard in Resources */,
 			);

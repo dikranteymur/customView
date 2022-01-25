@@ -9,6 +9,9 @@ import UIKit
 
 class TestView: UIView {
 
+    @IBOutlet var contentView: UIView!
+    @IBOutlet weak var mainLabel: UILabel!
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
@@ -21,7 +24,10 @@ class TestView: UIView {
     }
     
     private func commonInit() {
-        
+        Bundle.main.loadNibNamed("TextView", owner: self, options: nil)
+        addSubview(contentView)
+        contentView.frame = self.bounds
+        contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
     }
 
 }
